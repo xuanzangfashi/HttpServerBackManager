@@ -39,7 +39,7 @@ namespace HttpServerBackManager
         private void Form1_Load(object sender, EventArgs e)
         {
             LoginForm loginForm = new LoginForm();
-            // loginForm.ShowDialog();
+            loginForm.ShowDialog();
 
 
 
@@ -56,8 +56,10 @@ namespace HttpServerBackManager
             try
             {
                 JObject jsonStr = JObject.Parse(re);
-                if (jsonStr["result"].ToString() == "NullTable")
+                if (jsonStr["result"].ToString() != "OK")
                 {
+                    dataGridView1.Rows.Clear();
+                    MessageBox.Show(jsonStr["result"].ToString());
                     return;
                 }
                 JArray jArr = JArray.Parse(jsonStr["objs"].ToString());
@@ -114,7 +116,7 @@ namespace HttpServerBackManager
             {
                 if (e.RowIndex >= 0)
                 {
-                    currentEidtID = e.RowIndex;
+                    currentEidtID = int.Parse(dataGridView1.Rows[e.RowIndex].Cells[0].Value.ToString());
                     dataGridView1.ClearSelection();
                     dataGridView1.Rows[e.RowIndex].Selected = true;
                     dataGridView1.CurrentCell = dataGridView1.Rows[e.RowIndex].Cells[e.ColumnIndex];

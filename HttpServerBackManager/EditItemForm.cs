@@ -41,7 +41,7 @@ namespace HttpServerBackManager
             List<string> tmpstrList = new List<string>();
             for (int i = 0; i < Count; i++)
             {
-                tmpstrList.Add(Input1.Text);
+                tmpstrList.Add(inputs[i].Text);
             }
 
 
