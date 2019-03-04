@@ -5,7 +5,6 @@ D:\VS_Py_project\HttpServerBackManager\HttpServerBackManager\bin\Debug\Google.Pr
 D:\VS_Py_project\HttpServerBackManager\HttpServerBackManager\bin\Debug\MySql.Data.dll
 D:\VS_Py_project\HttpServerBackManager\HttpServerBackManager\bin\Debug\MySql.Data.xml
 D:\VS_Py_project\HttpServerBackManager\HttpServerBackManager\obj\Debug\HttpServerBackManager.csprojAssemblyReference.cache
-D:\VS_Py_project\HttpServerBackManager\HttpServerBackManager\obj\Debug\HttpServerBackManager.Form1.resources
 D:\VS_Py_project\HttpServerBackManager\HttpServerBackManager\obj\Debug\HttpServerBackManager.Properties.Resources.resources
 D:\VS_Py_project\HttpServerBackManager\HttpServerBackManager\obj\Debug\HttpServerBackManager.csproj.GenerateResource.cache
 D:\VS_Py_project\HttpServerBackManager\HttpServerBackManager\obj\Debug\HttpServerBackManager.csproj.CoreCompileInputs.cache
@@ -18,3 +17,4 @@ D:\VS_Py_project\HttpServerBackManager\HttpServerBackManager\bin\Debug\Newtonsof
 D:\VS_Py_project\HttpServerBackManager\HttpServerBackManager\bin\Debug\Newtonsoft.Json.xml
 D:\VS_Py_project\HttpServerBackManager\HttpServerBackManager\obj\Debug\HttpServerBackManager.EditItemForm.resources
 D:\VS_Py_project\HttpServerBackManager\HttpServerBackManager\obj\Debug\HttpServerBackManager.MutilpleAddForm.resources
+D:\VS_Py_project\HttpServerBackManager\HttpServerBackManager\obj\Debug\HttpServerBackManager.FileContinuePostThreadParams.resources
